@@ -1555,3 +1555,1032 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.02.21-02.08.18:712][359]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/RedmillsVillage_BuiltData.RedmillsVillage_BuiltData
 [2022.02.21-02.08.18:712][359]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/RedmillsVillage.RedmillsVillage
 [2022.02.21-02.08.20:317][548]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2022.02.21-04.02.41:796][507]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.02.21-04.02.41:800][507]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.21-04.02.41:800][507]PIE: New page: Sessão de PIE : RedmillsVillage (20 de fev de 2022 22:02:41)
+[2022.02.21-04.02.41:800][507]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RedmillsVillage
+[2022.02.21-04.02.41:814][507]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013465s)
+[2022.02.21-04.02.41:816][507]LogAIModule: Creating AISystem for world RedmillsVillage
+[2022.02.21-04.02.41:816][507]LogPlayLevel: PIE: World Init took: (0.002230s)
+[2022.02.21-04.02.41:816][507]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RedmillsVillage.RedmillsVillage to /Game/ThirdPersonBP/Maps/UEDPIE_0_RedmillsVillage.RedmillsVillage (0.015901s)
+[2022.02.21-04.02.41:888][507]LogUObjectHash: Compacting FUObjectHashTables data took   6.73ms
+[2022.02.21-04.02.41:895][507]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2022.02.21-04.02.41:895][507]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.21-04.02.41:895][507]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.21-04.02.41:895][507]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.21-04.02.41:895][507]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.21-04.02.41:895][507]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.21-04.02.41:895][507]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.21-04.02.41:895][507]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.21-04.02.41:895][507]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.21-04.02.41:895][507]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.02.21-04.02.41:895][507]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.02.21-04.02.41:895][507]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.02.21-04.02.41:895][507]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.21-04.02.41:898][507]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.21-04.02.41:898][507]LogAudioMixer: Display: 1: FrontRight
+[2022.02.21-04.02.41:903][507]LogAudioMixer: Display: Using Audio Device Alto-falantes (High Definition Audio Device)
+[2022.02.21-04.02.41:904][507]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.21-04.02.41:904][507]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.21-04.02.41:904][507]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.21-04.02.41:905][507]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.21-04.02.41:905][507]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.21-04.02.41:905][507]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.21-04.02.41:906][507]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.21-04.02.41:906][507]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.21-04.02.41:906][507]LogInit: FAudioDevice initialized.
+[2022.02.21-04.02.41:906][507]LogAudio: Display: Audio Device (ID: 11) registered with world 'RedmillsVillage'.
+[2022.02.21-04.02.41:926][507]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.21-04.02.41:926][507]LogLoad: Game class is 'ALS_GameMode_SP_C'
+[2022.02.21-04.02.41:928][507]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RedmillsVillage.RedmillsVillage up for play (max tick rate 0) at 2022.02.21-01.02.41
+[2022.02.21-04.02.41:928][507]LogWorld: Bringing up level for play took: 0.001038
+[2022.02.21-04.02.41:928][507]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2022.02.21-04.02.41:940][507]PIE: Servidor conectado
+[2022.02.21-04.02.41:941][507]PIE: Play in editor total start time 0,142 seconds.
+[2022.02.21-04.03.14:192][353]AnimBlueprintLog: Warning: Trying to play a non-additive animation 'ALS_N_Land_Light' into a pose that is expected to be additive in anim instance 'ALS_AnimBP_C /Game/ThirdPersonBP/Maps/UEDPIE_0_RedmillsVillage.RedmillsVillage:PersistentLevel.ALS_AnimMan_CharacterBP_C_0.CharacterMesh0.ALS_AnimBP_C_0'
+[2022.02.21-04.04.08:165][770]LogSlate: Window 'AdvancedLocomotionV4 Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.02.21-04.04.08:177][770]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_RedmillsVillage
+[2022.02.21-04.04.08:200][770]LogWorld: UWorld::CleanupWorld for RedmillsVillage, bSessionEnded=true, bCleanupResources=true
+[2022.02.21-04.04.08:200][770]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.21-04.04.08:210][770]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.21-04.04.08:216][770]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.21-04.04.08:245][770]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.21-04.04.08:246][770]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.21-04.04.08:247][770]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.21-04.04.08:253][770]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2022.02.21-04.04.08:508][771]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2022.02.21-04.12.50:168][360]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AdvancedLocomotionV4/Blueprints/Interfaces/ALS_Character_BPI.ALS_Character_BPI
+[2022.02.21-04.12.52:896][651]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2022.02.21-04.12.52:896][651]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.21-04.12.53:917][765]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2022.02.21-04.12.53:917][765]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.21-04.12.54:945][871]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.02.21-04.12.54:946][871]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.21-04.12.54:953][871]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2022.02.21-04.12.54:953][871]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.21-04.13.08:868][528]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2022.02.21-04.13.08:868][528]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.21-04.13.15:458][110]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AdvancedLocomotionV4/Blueprints/Interfaces/ALS_Camera_BPI.ALS_Camera_BPI
+[2022.02.21-04.13.23:292][ 12]LogSlate: Window 'ALS_Camera_BPI' being destroyed
+[2022.02.21-04.13.23:802][ 73]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2022.02.21-04.13.23:802][ 73]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.21-04.13.45:791][687]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AdvancedLocomotionV4/Blueprints/Interfaces/ALS_Controller_BPI.ALS_Controller_BPI
+[2022.02.21-04.13.48:028][919]LogSlate: Window 'ALS_Controller_BPI' being destroyed
+[2022.02.21-04.13.48:997][ 35]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2022.02.21-04.13.48:997][ 35]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.21-04.13.57:887][180]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AdvancedLocomotionV4/Blueprints/Interfaces/ALS_Character_BPI.ALS_Character_BPI
+[2022.02.21-04.17.14:507][972]LogUObjectHash: Compacting FUObjectHashTables data took   4.88ms
+[2022.02.21-04.17.14:517][972]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/RedmillsVillage' took 0.132
+[2022.02.21-04.17.14:518][972]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AdvancedLocomotionV4/Blueprints/Interfaces/ALS_Character_BPI] ([2] browsable assets)...
+[2022.02.21-04.17.14:518][972]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AdvancedLocomotionV4/Blueprints/Interfaces/ALS_Character_BPI]
+[2022.02.21-04.17.14:523][972]LogSavePackage: Moving 'F:/Unreal Projects/Project-RV/RedmillsVillage/Saved/ALS_Character_BPI_Auto38CF03F734829BEE7AD09F9A28FAE2034.tmp' to 'F:/Unreal Projects/Project-RV/RedmillsVillage/Saved/Autosaves/Game/Blueprints/AdvancedLocomotionV4/Blueprints/Interfaces/ALS_Character_BPI_Auto3.uasset'
+[2022.02.21-04.17.14:523][972]LogFileHelpers: Auto-saving content packages took 0.006
+[2022.02.21-04.17.50:496][279]LogSavePackage: Moving 'F:/Unreal Projects/Project-RV/RedmillsVillage/Saved/ALS_Character_BPI7BF94B154FA6A504C12C3197CC3DBE04.tmp' to 'F:/Unreal Projects/Project-RV/RedmillsVillage/Content/Blueprints/AdvancedLocomotionV4/Blueprints/Interfaces/ALS_Character_BPI.uasset'
+[2022.02.21-04.17.50:510][279]AssetCheck: New page: Asset Save: ALS_Character_BPI
+[2022.02.21-04.17.50:510][279]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/AdvancedLocomotionV4/Blueprints/Interfaces/ALS_Character_BPI.ALS_Character_BPI
+[2022.02.21-04.17.50:863][322]BlueprintLog: New page: Compilar ALS_Character_BPI
+[2022.02.21-04.17.50:996][322]LogUObjectHash: Compacting FUObjectHashTables data took   4.95ms
+[2022.02.21-04.18.12:788][350]BlueprintLog: New page: Compilar ALS_Character_BPI
+[2022.02.21-04.18.12:867][350]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2022.02.21-04.18.13:203][382]LogSavePackage: Moving 'F:/Unreal Projects/Project-RV/RedmillsVillage/Saved/ALS_Character_BPI1DDEB9C7418B9AFDE9E5C1A315A21BD8.tmp' to 'F:/Unreal Projects/Project-RV/RedmillsVillage/Content/Blueprints/AdvancedLocomotionV4/Blueprints/Interfaces/ALS_Character_BPI.uasset'
+[2022.02.21-04.18.13:215][382]AssetCheck: New page: Asset Save: ALS_Character_BPI
+[2022.02.21-04.18.13:215][382]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/AdvancedLocomotionV4/Blueprints/Interfaces/ALS_Character_BPI.ALS_Character_BPI
+[2022.02.21-04.18.39:878][797]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2022.02.21-04.18.39:879][797]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.21-04.20.09:855][995]LogSlate: Window 'Selecionar Classe Pai' being destroyed
+[2022.02.21-04.20.09:861][995]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.02.21-04.20.09:872][995]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.02.21-04.20.17:227][867]LogContentBrowser: Attempting asset rename: NewBlueprint -> AC_Health
+[2022.02.21-04.20.17:234][867]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.02.21-04.20.20:223][ 28]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AC_Health.AC_Health
+[2022.02.21-04.20.38:597][115]BlueprintLog: New page: Compilar AC_Health
+[2022.02.21-04.20.38:643][115]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2022.02.21-04.20.38:937][146]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Health" FILE="F:/Unreal Projects/Project-RV/RedmillsVillage/Content/Blueprints/AC_Health.uasset" SILENT=true
+[2022.02.21-04.20.38:939][146]LogSavePackage: Moving 'F:/Unreal Projects/Project-RV/RedmillsVillage/Saved/AC_HealthB0DDB2C849B6FFCFD34F40A76926BA54.tmp' to 'F:/Unreal Projects/Project-RV/RedmillsVillage/Content/Blueprints/AC_Health.uasset'
+[2022.02.21-04.20.38:950][146]AssetCheck: New page: Asset Save: AC_Health
+[2022.02.21-04.20.38:950][146]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/AC_Health.AC_Health
+[2022.02.21-04.20.46:361][594]LogSlate: Window 'AC_Health' being destroyed
+[2022.02.21-04.23.26:388][934]BlueprintLog: New page: Compilar AC_Health
+[2022.02.21-04.23.26:410][934]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2022.02.21-04.23.27:123][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Health" FILE="F:/Unreal Projects/Project-RV/RedmillsVillage/Content/Blueprints/AC_Health.uasset" SILENT=true
+[2022.02.21-04.23.27:125][ 17]LogSavePackage: Moving 'F:/Unreal Projects/Project-RV/RedmillsVillage/Saved/AC_Health66F1956A4C6F6FFF4F2C088ABCE430C9.tmp' to 'F:/Unreal Projects/Project-RV/RedmillsVillage/Content/Blueprints/AC_Health.uasset'
+[2022.02.21-04.23.27:136][ 17]AssetCheck: New page: Asset Save: AC_Health
+[2022.02.21-04.23.27:136][ 17]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/AC_Health.AC_Health
+[2022.02.21-04.23.49:253][114]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.02.21-04.23.49:272][114]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.02.21-04.24.05:937][875]BlueprintLog: New page: Compilar AC_Health
+[2022.02.21-04.24.05:959][875]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2022.02.21-04.24.09:153][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Health" FILE="F:/Unreal Projects/Project-RV/RedmillsVillage/Content/Blueprints/AC_Health.uasset" SILENT=true
+[2022.02.21-04.24.09:158][254]LogSavePackage: Moving 'F:/Unreal Projects/Project-RV/RedmillsVillage/Saved/AC_Health8362A1604E1064A6A0058FBE5D3E8DCF.tmp' to 'F:/Unreal Projects/Project-RV/RedmillsVillage/Content/Blueprints/AC_Health.uasset'
+[2022.02.21-04.24.09:168][254]AssetCheck: New page: Asset Save: AC_Health
+[2022.02.21-04.24.09:168][254]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/AC_Health.AC_Health
+[2022.02.21-04.26.37:563][424]BlueprintLog: New page: Compilar AC_Health
+[2022.02.21-04.26.37:589][424]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2022.02.21-04.27.32:355][394]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2022.02.21-04.27.32:356][394]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/RedmillsVillage' took 0.021
+[2022.02.21-04.27.32:356][394]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AC_Health] ([2] browsable assets)...
+[2022.02.21-04.27.32:356][394]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AC_Health]
+[2022.02.21-04.27.32:356][394]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Health" FILE="F:/Unreal Projects/Project-RV/RedmillsVillage/Saved/Autosaves/Game/Blueprints/AC_Health_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2022.02.21-04.27.32:363][394]LogSavePackage: Moving 'F:/Unreal Projects/Project-RV/RedmillsVillage/Saved/AC_Health_Auto4D90D967D471EED4B6FE52EAB0CB43FAA.tmp' to 'F:/Unreal Projects/Project-RV/RedmillsVillage/Saved/Autosaves/Game/Blueprints/AC_Health_Auto4.uasset'
+[2022.02.21-04.27.32:363][394]LogFileHelpers: Auto-saving content packages took 0.007
+[2022.02.21-04.28.41:240][685]BlueprintLog: New page: Compilar AC_Health
+[2022.02.21-04.28.41:262][685]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2022.02.21-04.30.25:754][777]BlueprintLog: New page: Compilar AC_Health
+[2022.02.21-04.30.25:777][777]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2022.02.21-04.37.33:090][289]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2022.02.21-04.37.33:091][289]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/RedmillsVillage' took 0.022
+[2022.02.21-04.37.33:091][289]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AC_Health] ([2] browsable assets)...
+[2022.02.21-04.37.33:091][289]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AC_Health]
+[2022.02.21-04.37.33:091][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Health" FILE="F:/Unreal Projects/Project-RV/RedmillsVillage/Saved/Autosaves/Game/Blueprints/AC_Health_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2022.02.21-04.37.33:099][289]LogSavePackage: Moving 'F:/Unreal Projects/Project-RV/RedmillsVillage/Saved/AC_Health_Auto51C30AF9140401925D5AEC38AA2379E8B.tmp' to 'F:/Unreal Projects/Project-RV/RedmillsVillage/Saved/Autosaves/Game/Blueprints/AC_Health_Auto5.uasset'
+[2022.02.21-04.37.33:099][289]LogFileHelpers: Auto-saving content packages took 0.008
+[2022.02.21-04.51.55:168][ 86]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UKismetMathLibrary::Add_FloatFloat' [Não foi possível encontrar o módulo especificado.]
+[2022.02.21-04.53.56:957][243]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2022.02.21-04.53.56:958][243]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/RedmillsVillage' took 0.023
+[2022.02.21-04.53.56:959][243]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AC_Health] ([2] browsable assets)...
+[2022.02.21-04.53.56:959][243]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AC_Health]
+[2022.02.21-04.53.56:959][243]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Health" FILE="F:/Unreal Projects/Project-RV/RedmillsVillage/Saved/Autosaves/Game/Blueprints/AC_Health_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2022.02.21-04.53.56:966][243]LogSavePackage: Moving 'F:/Unreal Projects/Project-RV/RedmillsVillage/Saved/AC_Health_Auto65027E16543A6C3110976E08D634C2661.tmp' to 'F:/Unreal Projects/Project-RV/RedmillsVillage/Saved/Autosaves/Game/Blueprints/AC_Health_Auto6.uasset'
+[2022.02.21-04.53.56:967][243]LogFileHelpers: Auto-saving content packages took 0.009
+[2022.02.21-04.59.48:098][554]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AdvancedLocomotionV4/Blueprints/CharacterLogic/ALS_Base_CharacterBP.ALS_Base_CharacterBP
+[2022.02.21-05.00.17:494][405]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2022.02.21-05.00.17:494][405]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.21-05.01.09:033][479]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AdvancedLocomotionV4/Blueprints/CharacterLogic/ALS_Base_CharacterBP.ALS_Base_CharacterBP
+[2022.02.21-05.01.20:963][652]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2022.02.21-05.01.20:963][652]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.21-05.01.22:784][860]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AdvancedLocomotionV4/Blueprints/CharacterLogic/ALS_AnimMan_CharacterBP.ALS_AnimMan_CharacterBP
+[2022.02.21-05.01.40:535][913]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2022.02.21-05.01.40:535][913]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.21-05.01.46:414][598]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/Blueprints/AdvancedLocomotionV4/CharacterAssets/MannequinSkeleton/ALS_Mannequin_Skeleton.ALS_Mannequin_Skeleton
+[2022.02.21-05.01.46:423][598]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2022.02.21-05.01.46:429][598]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1.EpicQuadPanorama_CC+EV1', its maximum texture size has been explicitly set to 512.
+[2022.02.21-05.01.46:485][598]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/SunsetAmbientCubemap.SunsetAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2022.02.21-05.01.46:539][598]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.02.21-05.01.46:541][598]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'PinnedCommandList' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2022.02.21-05.05.16:328][ 32]LogEditorTransaction: Undo Mover Nó
+[2022.02.21-05.05.16:392][ 32]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.02.21-05.06.57:326][903]BlueprintLog: New page: Compilar AC_Health
+[2022.02.21-05.06.57:422][903]LogUObjectHash: Compacting FUObjectHashTables data took   4.50ms
+[2022.02.21-05.06.57:703][932]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Health" FILE="F:/Unreal Projects/Project-RV/RedmillsVillage/Content/Blueprints/AC_Health.uasset" SILENT=true
+[2022.02.21-05.06.57:715][932]LogSavePackage: Moving 'F:/Unreal Projects/Project-RV/RedmillsVillage/Saved/AC_HealthE9ACF1044EF0C253CD07E99132C609E2.tmp' to 'F:/Unreal Projects/Project-RV/RedmillsVillage/Content/Blueprints/AC_Health.uasset'
+[2022.02.21-05.06.57:727][932]AssetCheck: New page: Asset Save: AC_Health
+[2022.02.21-05.06.57:727][932]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/AC_Health.AC_Health
+[2022.02.21-05.09.01:417][804]BlueprintLog: New page: Compilar AC_Health
+[2022.02.21-05.09.01:457][804]LogUObjectHash: Compacting FUObjectHashTables data took   4.21ms
+[2022.02.21-05.09.02:063][871]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Health" FILE="F:/Unreal Projects/Project-RV/RedmillsVillage/Content/Blueprints/AC_Health.uasset" SILENT=true
+[2022.02.21-05.09.02:076][871]LogSavePackage: Moving 'F:/Unreal Projects/Project-RV/RedmillsVillage/Saved/AC_HealthFC2453D64AB2245B742C849A9A9CDF34.tmp' to 'F:/Unreal Projects/Project-RV/RedmillsVillage/Content/Blueprints/AC_Health.uasset'
+[2022.02.21-05.09.02:088][871]AssetCheck: New page: Asset Save: AC_Health
+[2022.02.21-05.09.02:088][871]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/AC_Health.AC_Health
+[2022.02.21-05.09.23:052][608]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2022.02.21-05.09.23:052][608]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.21-05.09.31:049][550]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AdvancedLocomotionV4/Blueprints/CharacterLogic/ALS_Base_CharacterBP.ALS_Base_CharacterBP
+[2022.02.21-05.10.13:256][188]BlueprintLog: New page: Compilar AC_Health
+[2022.02.21-05.10.13:339][188]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2022.02.21-05.10.13:654][220]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Health" FILE="F:/Unreal Projects/Project-RV/RedmillsVillage/Content/Blueprints/AC_Health.uasset" SILENT=true
+[2022.02.21-05.10.13:667][220]LogSavePackage: Moving 'F:/Unreal Projects/Project-RV/RedmillsVillage/Saved/AC_Health89DDE5274D45D1A4800039ABD6063C4F.tmp' to 'F:/Unreal Projects/Project-RV/RedmillsVillage/Content/Blueprints/AC_Health.uasset'
+[2022.02.21-05.10.13:679][220]AssetCheck: New page: Asset Save: AC_Health
+[2022.02.21-05.10.13:679][220]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/AC_Health.AC_Health
+[2022.02.21-05.10.23:719][967]BlueprintLog: New page: Compilar ALS_Base_CharacterBP
+[2022.02.21-05.10.23:967][967]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2022.02.21-05.10.24:841][  4]LogSavePackage: Moving 'F:/Unreal Projects/Project-RV/RedmillsVillage/Saved/ALS_Base_CharacterBPE984672145A287A5C8435F9420C5A43A.tmp' to 'F:/Unreal Projects/Project-RV/RedmillsVillage/Content/Blueprints/AdvancedLocomotionV4/Blueprints/CharacterLogic/ALS_Base_CharacterBP.uasset'
+[2022.02.21-05.10.24:856][  4]AssetCheck: New page: Asset Save: ALS_Base_CharacterBP
+[2022.02.21-05.10.24:856][  4]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/AdvancedLocomotionV4/Blueprints/CharacterLogic/ALS_Base_CharacterBP.ALS_Base_CharacterBP
+[2022.02.21-05.11.57:583][767]BlueprintLog: New page: Compilar ALS_Base_CharacterBP
+[2022.02.21-05.11.57:849][767]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2022.02.21-05.11.58:662][798]LogSavePackage: Moving 'F:/Unreal Projects/Project-RV/RedmillsVillage/Saved/ALS_Base_CharacterBP56588FC44AE5DB0A92B198BF9A881BA0.tmp' to 'F:/Unreal Projects/Project-RV/RedmillsVillage/Content/Blueprints/AdvancedLocomotionV4/Blueprints/CharacterLogic/ALS_Base_CharacterBP.uasset'
+[2022.02.21-05.11.58:680][798]AssetCheck: New page: Asset Save: ALS_Base_CharacterBP
+[2022.02.21-05.11.58:680][798]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/AdvancedLocomotionV4/Blueprints/CharacterLogic/ALS_Base_CharacterBP.ALS_Base_CharacterBP
+[2022.02.21-05.13.05:601][ 12]BlueprintLog: New page: Compilar ALS_Base_CharacterBP
+[2022.02.21-05.13.05:864][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   4.12ms
+[2022.02.21-05.13.06:678][ 43]LogSavePackage: Moving 'F:/Unreal Projects/Project-RV/RedmillsVillage/Saved/ALS_Base_CharacterBP32C82C0240E61268C0B2CA8C22C62B2B.tmp' to 'F:/Unreal Projects/Project-RV/RedmillsVillage/Content/Blueprints/AdvancedLocomotionV4/Blueprints/CharacterLogic/ALS_Base_CharacterBP.uasset'
+[2022.02.21-05.13.06:697][ 43]AssetCheck: New page: Asset Save: ALS_Base_CharacterBP
+[2022.02.21-05.13.06:697][ 43]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/AdvancedLocomotionV4/Blueprints/CharacterLogic/ALS_Base_CharacterBP.ALS_Base_CharacterBP
+[2022.02.21-05.13.26:780][419]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.02.21-05.13.27:305][478]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2022.02.21-05.13.43:136][266]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.02.21-05.13.44:802][377]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2022.02.21-05.13.44:812][377]LogSavePackage: Moving 'F:/Unreal Projects/Project-RV/RedmillsVillage/Saved/RedmillsVillage2E4D86CE46E7F902697E5A94416059E2.tmp' to 'F:/Unreal Projects/Project-RV/RedmillsVillage/Content/ThirdPersonBP/Maps/RedmillsVillage.umap'
+[2022.02.21-05.13.44:877][377]LogSavePackage: Moving 'F:/Unreal Projects/Project-RV/RedmillsVillage/Saved/RedmillsVillage_BuiltData40A7AFE14C81612AEF8C4E9AAA0081D8.tmp' to 'F:/Unreal Projects/Project-RV/RedmillsVillage/Content/ThirdPersonBP/Maps/RedmillsVillage_BuiltData.uasset'
+[2022.02.21-05.13.44:890][377]AssetCheck: New page: Asset Save: multiple assets
+[2022.02.21-05.13.44:890][377]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/RedmillsVillage_BuiltData.RedmillsVillage_BuiltData
+[2022.02.21-05.13.44:890][377]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/RedmillsVillage.RedmillsVillage
+[2022.02.21-05.13.48:148][759]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/ThirdPersonBP/Maps/RedmillsVillage.RedmillsVillage:PersistentLevel.RedmillsVillage
+[2022.02.21-05.13.54:771][388]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2022.02.21-05.15.19:549][261]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2022.02.21-05.15.19:560][261]LogSavePackage: Moving 'F:/Unreal Projects/Project-RV/RedmillsVillage/Saved/RedmillsVillageB7DF6EB144E74B25BC809C897AF8E65B.tmp' to 'F:/Unreal Projects/Project-RV/RedmillsVillage/Content/ThirdPersonBP/Maps/RedmillsVillage.umap'
+[2022.02.21-05.15.19:568][261]LogFileHelpers: Saving map 'RedmillsVillage' took 0.053
+[2022.02.21-05.15.19:582][261]AssetCheck: New page: Asset Save: RedmillsVillage
+[2022.02.21-05.15.19:582][261]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/RedmillsVillage.RedmillsVillage
+[2022.02.21-05.15.25:021][442]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.02.21-05.15.25:040][442]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.02.21-05.15.38:275][161]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2022.02.21-05.15.38:286][161]LogSavePackage: Moving 'F:/Unreal Projects/Project-RV/RedmillsVillage/Saved/RedmillsVillageAB2AAD924DBE0EC283CDEDB108A64496.tmp' to 'F:/Unreal Projects/Project-RV/RedmillsVillage/Content/ThirdPersonBP/Maps/RedmillsVillage.umap'
+[2022.02.21-05.15.38:294][161]LogFileHelpers: Saving map 'RedmillsVillage' took 0.044
+[2022.02.21-05.15.38:305][161]AssetCheck: New page: Asset Save: RedmillsVillage
+[2022.02.21-05.15.38:305][161]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/RedmillsVillage.RedmillsVillage
+[2022.02.21-05.15.39:215][270]BlueprintLog: New page: Compilar RedmillsVillage
+[2022.02.21-05.15.39:256][270]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2022.02.21-05.15.39:669][314]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2022.02.21-05.15.39:681][314]LogSavePackage: Moving 'F:/Unreal Projects/Project-RV/RedmillsVillage/Saved/RedmillsVillageB933F5FD48258910DA8B14BD9A0587DF.tmp' to 'F:/Unreal Projects/Project-RV/RedmillsVillage/Content/ThirdPersonBP/Maps/RedmillsVillage.umap'
+[2022.02.21-05.15.39:689][314]LogFileHelpers: Saving map 'RedmillsVillage' took 0.048
+[2022.02.21-05.15.39:702][314]AssetCheck: New page: Asset Save: RedmillsVillage
+[2022.02.21-05.15.39:702][314]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/RedmillsVillage.RedmillsVillage
+[2022.02.21-05.16.46:630][553]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2022.02.21-05.16.46:641][553]LogSavePackage: Moving 'F:/Unreal Projects/Project-RV/RedmillsVillage/Saved/RedmillsVillage645B430845F0370B77C03BAE899D5337.tmp' to 'F:/Unreal Projects/Project-RV/RedmillsVillage/Content/ThirdPersonBP/Maps/RedmillsVillage.umap'
+[2022.02.21-05.16.46:649][553]LogFileHelpers: Saving map 'RedmillsVillage' took 0.046
+[2022.02.21-05.16.46:660][553]AssetCheck: New page: Asset Save: RedmillsVillage
+[2022.02.21-05.16.46:660][553]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/RedmillsVillage.RedmillsVillage
+[2022.02.21-05.16.47:144][610]BlueprintLog: New page: Compilar RedmillsVillage
+[2022.02.21-05.16.47:185][610]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2022.02.21-05.16.47:769][674]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2022.02.21-05.16.47:780][674]LogSavePackage: Moving 'F:/Unreal Projects/Project-RV/RedmillsVillage/Saved/RedmillsVillage8E8FA5994CABC1E2F7A0CC8A1BE6F6DE.tmp' to 'F:/Unreal Projects/Project-RV/RedmillsVillage/Content/ThirdPersonBP/Maps/RedmillsVillage.umap'
+[2022.02.21-05.16.47:788][674]LogFileHelpers: Saving map 'RedmillsVillage' took 0.046
+[2022.02.21-05.16.47:799][674]AssetCheck: New page: Asset Save: RedmillsVillage
+[2022.02.21-05.16.47:799][674]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/RedmillsVillage.RedmillsVillage
+[2022.02.21-05.16.49:881][922]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.02.21-05.16.49:885][922]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.21-05.16.49:885][922]PIE: New page: Sessão de PIE : RedmillsVillage (20 de fev de 2022 23:16:49)
+[2022.02.21-05.16.49:885][922]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RedmillsVillage
+[2022.02.21-05.16.49:892][922]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006953s)
+[2022.02.21-05.16.49:893][922]LogAIModule: Creating AISystem for world RedmillsVillage
+[2022.02.21-05.16.49:893][922]LogPlayLevel: PIE: World Init took: (0.001381s)
+[2022.02.21-05.16.49:893][922]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RedmillsVillage.RedmillsVillage to /Game/ThirdPersonBP/Maps/UEDPIE_0_RedmillsVillage.RedmillsVillage (0.008456s)
+[2022.02.21-05.16.49:927][922]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2022.02.21-05.16.49:928][922]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2022.02.21-05.16.49:928][922]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.21-05.16.49:928][922]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.21-05.16.49:928][922]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.21-05.16.49:928][922]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.21-05.16.49:928][922]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.21-05.16.49:928][922]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.21-05.16.49:928][922]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.21-05.16.49:928][922]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.21-05.16.49:928][922]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.02.21-05.16.49:928][922]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.02.21-05.16.49:928][922]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.02.21-05.16.49:928][922]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.21-05.16.49:931][922]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.21-05.16.49:931][922]LogAudioMixer: Display: 1: FrontRight
+[2022.02.21-05.16.49:937][922]LogAudioMixer: Display: Using Audio Device Alto-falantes (High Definition Audio Device)
+[2022.02.21-05.16.49:937][922]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.21-05.16.49:937][922]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.21-05.16.49:937][922]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.21-05.16.49:938][922]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.21-05.16.49:938][922]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.21-05.16.49:938][922]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.21-05.16.49:939][922]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.21-05.16.49:939][922]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.21-05.16.49:939][922]LogInit: FAudioDevice initialized.
+[2022.02.21-05.16.49:939][922]LogAudio: Display: Audio Device (ID: 12) registered with world 'RedmillsVillage'.
+[2022.02.21-05.16.49:953][922]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.21-05.16.49:953][922]LogLoad: Game class is 'ALS_GameMode_SP_C'
+[2022.02.21-05.16.49:954][922]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RedmillsVillage.RedmillsVillage up for play (max tick rate 0) at 2022.02.21-02.16.49
+[2022.02.21-05.16.49:955][922]LogWorld: Bringing up level for play took: 0.000886
+[2022.02.21-05.16.49:955][922]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2022.02.21-05.16.49:964][922]PIE: Servidor conectado
+[2022.02.21-05.16.49:965][922]PIE: Play in editor total start time 0,081 seconds.
+[2022.02.21-05.16.53:819][380]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.16.54:813][497]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.16.55:813][617]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.16.56:813][737]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.16.57:814][857]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.16.58:814][977]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.16.59:814][ 97]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.17.00:814][217]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.18.01:428][487]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.18.02:429][607]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.18.06:495][ 95]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.18.19:420][607]AnimBlueprintLog: Warning: Trying to play a non-additive animation 'ALS_N_to_CLF' into a pose that is expected to be additive in anim instance 'ALS_AnimBP_C /Game/ThirdPersonBP/Maps/UEDPIE_0_RedmillsVillage.RedmillsVillage:PersistentLevel.ALS_AnimMan_CharacterBP_C_0.CharacterMesh0.ALS_AnimBP_C_0'
+[2022.02.21-05.18.19:763][648]AnimBlueprintLog: Warning: Trying to play a non-additive animation 'ALS_CLF_to_N' into a pose that is expected to be additive in anim instance 'ALS_AnimBP_C /Game/ThirdPersonBP/Maps/UEDPIE_0_RedmillsVillage.RedmillsVillage:PersistentLevel.ALS_AnimMan_CharacterBP_C_0.CharacterMesh0.ALS_AnimBP_C_0'
+[2022.02.21-05.18.20:888][739]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.21-05.18.20:888][739]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_RedmillsVillage
+[2022.02.21-05.18.20:890][739]LogSlate: Window 'AdvancedLocomotionV4 Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.02.21-05.18.20:894][739]LogWorld: UWorld::CleanupWorld for RedmillsVillage, bSessionEnded=true, bCleanupResources=true
+[2022.02.21-05.18.20:894][739]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.21-05.18.20:900][739]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.21-05.18.20:916][739]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.21-05.18.20:941][739]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.21-05.18.20:942][739]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.21-05.18.20:948][739]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2022.02.21-05.18.20:974][740]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2022.02.21-05.18.29:772][153]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.02.21-05.18.29:775][153]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.21-05.18.29:775][153]PIE: New page: Sessão de PIE : RedmillsVillage (20 de fev de 2022 23:18:29)
+[2022.02.21-05.18.29:775][153]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RedmillsVillage
+[2022.02.21-05.18.29:782][153]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006863s)
+[2022.02.21-05.18.29:784][153]LogAIModule: Creating AISystem for world RedmillsVillage
+[2022.02.21-05.18.29:784][153]LogPlayLevel: PIE: World Init took: (0.001502s)
+[2022.02.21-05.18.29:784][153]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RedmillsVillage.RedmillsVillage to /Game/ThirdPersonBP/Maps/UEDPIE_0_RedmillsVillage.RedmillsVillage (0.008511s)
+[2022.02.21-05.18.29:819][153]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2022.02.21-05.18.29:821][153]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2022.02.21-05.18.29:821][153]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.21-05.18.29:821][153]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.21-05.18.29:821][153]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.21-05.18.29:821][153]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.21-05.18.29:821][153]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.21-05.18.29:821][153]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.21-05.18.29:821][153]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.21-05.18.29:821][153]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.21-05.18.29:822][153]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.02.21-05.18.29:822][153]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.02.21-05.18.29:822][153]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.02.21-05.18.29:822][153]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.21-05.18.29:824][153]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.21-05.18.29:824][153]LogAudioMixer: Display: 1: FrontRight
+[2022.02.21-05.18.29:830][153]LogAudioMixer: Display: Using Audio Device Alto-falantes (High Definition Audio Device)
+[2022.02.21-05.18.29:830][153]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.21-05.18.29:830][153]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.21-05.18.29:830][153]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.21-05.18.29:830][153]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.21-05.18.29:830][153]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.21-05.18.29:830][153]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.21-05.18.29:831][153]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.21-05.18.29:831][153]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.21-05.18.29:831][153]LogInit: FAudioDevice initialized.
+[2022.02.21-05.18.29:831][153]LogAudio: Display: Audio Device (ID: 13) registered with world 'RedmillsVillage'.
+[2022.02.21-05.18.29:852][153]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.21-05.18.29:852][153]LogLoad: Game class is 'ALS_GameMode_SP_C'
+[2022.02.21-05.18.29:853][153]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RedmillsVillage.RedmillsVillage up for play (max tick rate 0) at 2022.02.21-02.18.29
+[2022.02.21-05.18.29:854][153]LogWorld: Bringing up level for play took: 0.000800
+[2022.02.21-05.18.29:854][153]LogOnline: OSS: Creating online subsystem instance for: :Context_37
+[2022.02.21-05.18.29:862][153]PIE: Servidor conectado
+[2022.02.21-05.18.29:863][153]PIE: Play in editor total start time 0,088 seconds.
+[2022.02.21-05.18.30:590][237]AnimBlueprintLog: Warning: Trying to play a non-additive animation 'ALS_N_Rotate_R90' into a pose that is expected to be additive in anim instance 'ALS_AnimBP_C /Game/ThirdPersonBP/Maps/UEDPIE_0_RedmillsVillage.RedmillsVillage:PersistentLevel.ALS_AnimMan_CharacterBP_C_0.CharacterMesh0.ALS_AnimBP_C_0'
+[2022.02.21-05.18.34:140][663]AnimBlueprintLog: Warning: Trying to play a non-additive animation 'ALS_N_to_CLF' into a pose that is expected to be additive in anim instance 'ALS_AnimBP_C /Game/ThirdPersonBP/Maps/UEDPIE_0_RedmillsVillage.RedmillsVillage:PersistentLevel.ALS_AnimMan_CharacterBP_C_0.CharacterMesh0.ALS_AnimBP_C_0'
+[2022.02.21-05.18.34:524][670]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.18.35:152][745]AnimBlueprintLog: Warning: Trying to play a non-additive animation 'ALS_CLF_to_N' into a pose that is expected to be additive in anim instance 'ALS_AnimBP_C /Game/ThirdPersonBP/Maps/UEDPIE_0_RedmillsVillage.RedmillsVillage:PersistentLevel.ALS_AnimMan_CharacterBP_C_0.CharacterMesh0.ALS_AnimBP_C_0'
+[2022.02.21-05.18.35:537][752]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.18.36:428][859]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.18.37:428][979]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.18.38:428][ 99]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.18.39:428][219]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.18.40:428][339]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.18.41:428][459]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.18.42:429][579]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.18.43:429][699]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.18.44:428][819]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.18.45:428][939]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.18.46:429][ 59]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.18.47:429][179]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.18.48:429][299]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.18.49:430][419]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.18.50:429][539]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.18.51:429][659]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.18.52:429][740]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.18.53:431][821]LogBlueprintUserMessages: [AC_Health] Morreu
+[2022.02.21-05.18.54:431][941]LogBlueprintUserMessages: [AC_Health] Morreu
+[2022.02.21-05.18.56:328][165]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.21-05.18.56:328][165]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_RedmillsVillage
+[2022.02.21-05.18.56:329][165]LogSlate: Window 'AdvancedLocomotionV4 Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.02.21-05.18.56:333][165]LogWorld: UWorld::CleanupWorld for RedmillsVillage, bSessionEnded=true, bCleanupResources=true
+[2022.02.21-05.18.56:334][165]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.21-05.18.56:339][165]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.21-05.18.56:355][165]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.21-05.18.56:380][165]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.21-05.18.56:381][165]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.21-05.18.56:386][165]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2022.02.21-05.18.56:413][166]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2022.02.21-05.20.21:825][296]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.02.21-05.20.21:839][296]LogContentBrowser: Creating deferred item: NewFolder
+[2022.02.21-05.20.24:199][386]LogContentBrowser: Attempting asset rename: NewFolder -> NewFolder
+[2022.02.21-05.20.24:200][386]LogContentBrowser: End creating deferred item NewFolder
+[2022.02.21-05.20.31:554][996]LogContentBrowser: Attempting asset rename: NewFolder -> Camera
+[2022.02.21-05.20.35:872][509]LogContentBrowser: Attempting asset rename: Camera -> CameraEffects
+[2022.02.21-05.20.45:713][884]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.02.21-05.20.45:716][884]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2022.02.21-05.21.01:987][884]LogSlate: Window 'Selecionar Classe Pai' being destroyed
+[2022.02.21-05.21.01:992][884]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.02.21-05.21.02:004][884]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.02.21-05.21.14:855][ 13]LogContentBrowser: Attempting asset rename: NewBlueprint -> Damage_Camera
+[2022.02.21-05.21.14:858][ 13]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.02.21-05.21.19:572][560]LogContentBrowser: Attempting asset rename: Damage_Camera -> Damage_CS
+[2022.02.21-05.21.19:584][560]LogMetaData: Removing '/Game/Blueprints/CameraEffects/Damage_CS.SKEL_Damage_CS_C' ref from Metadata '/Game/Blueprints/CameraEffects/Damage_Camera.PackageMetaData'
+[2022.02.21-05.21.19:584][560]LogMetaData: Removing '/Game/Blueprints/CameraEffects/Damage_CS.Damage_CS_C' ref from Metadata '/Game/Blueprints/CameraEffects/Damage_Camera.PackageMetaData'
+[2022.02.21-05.21.19:597][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CameraEffects/Damage_CS" FILE="F:/Unreal Projects/Project-RV/RedmillsVillage/Content/Blueprints/CameraEffects/Damage_CS.uasset" SILENT=true
+[2022.02.21-05.21.19:597][560]LogSavePackage: Moving 'F:/Unreal Projects/Project-RV/RedmillsVillage/Saved/Damage_CS5D03FF3A44259507E9588EAE0399AE89.tmp' to 'F:/Unreal Projects/Project-RV/RedmillsVillage/Content/Blueprints/CameraEffects/Damage_CS.uasset'
+[2022.02.21-05.21.19:661][560]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2022.02.21-05.21.19:697][560]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2022.02.21-05.21.19:721][560]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2022.02.21-05.21.19:786][560]AssetCheck: New page: Asset Save: Damage_CS
+[2022.02.21-05.21.19:786][560]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/CameraEffects/Damage_CS.Damage_CS
+[2022.02.21-05.21.22:057][831]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/CameraEffects/Damage_CS.Damage_CS
+[2022.02.21-05.21.28:803][138]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2022.02.21-05.21.28:803][138]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.21-05.21.30:777][354]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/CameraEffects/Damage_CS.Damage_CS
+[2022.02.21-05.23.44:197][152]BlueprintLog: New page: Compilar Damage_CS
+[2022.02.21-05.23.44:235][152]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
+[2022.02.21-05.23.44:688][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CameraEffects/Damage_CS" FILE="F:/Unreal Projects/Project-RV/RedmillsVillage/Content/Blueprints/CameraEffects/Damage_CS.uasset" SILENT=true
+[2022.02.21-05.23.44:689][204]LogSavePackage: Moving 'F:/Unreal Projects/Project-RV/RedmillsVillage/Saved/Damage_CSE2653B70440BEC29BDBBC39279EE2940.tmp' to 'F:/Unreal Projects/Project-RV/RedmillsVillage/Content/Blueprints/CameraEffects/Damage_CS.uasset'
+[2022.02.21-05.23.44:700][204]AssetCheck: New page: Asset Save: Damage_CS
+[2022.02.21-05.23.44:700][204]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/CameraEffects/Damage_CS.Damage_CS
+[2022.02.21-05.23.51:349][882]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CameraEffects/Damage_CS" FILE="F:/Unreal Projects/Project-RV/RedmillsVillage/Content/Blueprints/CameraEffects/Damage_CS.uasset" SILENT=true
+[2022.02.21-05.23.51:350][882]LogSavePackage: Moving 'F:/Unreal Projects/Project-RV/RedmillsVillage/Saved/Damage_CSBD3FDC5D46879E0E01EE8A8D2643F5C2.tmp' to 'F:/Unreal Projects/Project-RV/RedmillsVillage/Content/Blueprints/CameraEffects/Damage_CS.uasset'
+[2022.02.21-05.23.51:363][882]AssetCheck: New page: Asset Save: Damage_CS
+[2022.02.21-05.23.51:363][882]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/CameraEffects/Damage_CS.Damage_CS
+[2022.02.21-05.23.52:355][  1]BlueprintLog: New page: Compilar Damage_CS
+[2022.02.21-05.23.52:387][  1]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2022.02.21-05.23.59:697][249]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2022.02.21-05.23.59:697][249]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.21-05.24.10:938][577]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.02.21-05.24.10:956][577]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.02.21-05.24.45:322][122]BlueprintLog: New page: Compilar AC_Health
+[2022.02.21-05.24.45:409][122]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2022.02.21-05.24.45:800][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Health" FILE="F:/Unreal Projects/Project-RV/RedmillsVillage/Content/Blueprints/AC_Health.uasset" SILENT=true
+[2022.02.21-05.24.45:813][161]LogSavePackage: Moving 'F:/Unreal Projects/Project-RV/RedmillsVillage/Saved/AC_HealthCF53E10F4FA6861D40AB00B688F26057.tmp' to 'F:/Unreal Projects/Project-RV/RedmillsVillage/Content/Blueprints/AC_Health.uasset'
+[2022.02.21-05.24.45:826][161]AssetCheck: New page: Asset Save: AC_Health
+[2022.02.21-05.24.45:826][161]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/AC_Health.AC_Health
+[2022.02.21-05.24.47:525][360]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.02.21-05.24.47:528][360]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.21-05.24.47:528][360]PIE: New page: Sessão de PIE : RedmillsVillage (20 de fev de 2022 23:24:47)
+[2022.02.21-05.24.47:528][360]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_RedmillsVillage
+[2022.02.21-05.24.47:536][360]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007525s)
+[2022.02.21-05.24.47:537][360]LogAIModule: Creating AISystem for world RedmillsVillage
+[2022.02.21-05.24.47:537][360]LogPlayLevel: PIE: World Init took: (0.001439s)
+[2022.02.21-05.24.47:537][360]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/RedmillsVillage.RedmillsVillage to /Game/ThirdPersonBP/Maps/UEDPIE_0_RedmillsVillage.RedmillsVillage (0.009109s)
+[2022.02.21-05.24.47:574][360]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2022.02.21-05.24.47:576][360]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2022.02.21-05.24.47:577][360]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.21-05.24.47:577][360]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.21-05.24.47:577][360]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.21-05.24.47:577][360]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.21-05.24.47:577][360]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.21-05.24.47:577][360]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.21-05.24.47:577][360]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.21-05.24.47:577][360]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.21-05.24.47:577][360]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.02.21-05.24.47:577][360]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.02.21-05.24.47:577][360]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.02.21-05.24.47:577][360]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.21-05.24.47:579][360]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.21-05.24.47:579][360]LogAudioMixer: Display: 1: FrontRight
+[2022.02.21-05.24.47:585][360]LogAudioMixer: Display: Using Audio Device Alto-falantes (High Definition Audio Device)
+[2022.02.21-05.24.47:585][360]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.21-05.24.47:585][360]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.21-05.24.47:585][360]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.21-05.24.47:585][360]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.21-05.24.47:585][360]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.21-05.24.47:585][360]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.21-05.24.47:586][360]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.21-05.24.47:586][360]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.21-05.24.47:586][360]LogInit: FAudioDevice initialized.
+[2022.02.21-05.24.47:586][360]LogAudio: Display: Audio Device (ID: 14) registered with world 'RedmillsVillage'.
+[2022.02.21-05.24.47:606][360]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.21-05.24.47:606][360]LogLoad: Game class is 'ALS_GameMode_SP_C'
+[2022.02.21-05.24.47:607][360]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_RedmillsVillage.RedmillsVillage up for play (max tick rate 0) at 2022.02.21-02.24.47
+[2022.02.21-05.24.47:607][360]LogWorld: Bringing up level for play took: 0.000737
+[2022.02.21-05.24.47:607][360]LogOnline: OSS: Creating online subsystem instance for: :Context_40
+[2022.02.21-05.24.47:616][360]PIE: Servidor conectado
+[2022.02.21-05.24.47:617][360]PIE: Play in editor total start time 0,09 seconds.
+[2022.02.21-05.24.55:069][248]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.24.56:069][368]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.24.57:069][488]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.24.58:069][608]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.24.59:069][728]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.25.00:070][848]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.25.01:069][968]LogBlueprintUserMessages: [AC_Health] Recebendo Dano
+[2022.02.21-05.25.06:844][661]AnimBlueprintLog: Warning: Trying to play a non-additive animation 'ALS_N_to_CLF' into a pose that is expected to be additive in anim instance 'ALS_AnimBP_C /Game/ThirdPersonBP/Maps/UEDPIE_0_RedmillsVillage.RedmillsVillage:PersistentLevel.ALS_AnimMan_CharacterBP_C_0.CharacterMesh0.ALS_AnimBP_C_0'
+[2022.02.21-05.25.09:404][929]AnimBlueprintLog: Warning: Trying to play a non-additive animation 'ALS_CLF_to_N' into a pose that is expected to be additive in anim instance 'ALS_AnimBP_C /Game/ThirdPersonBP/Maps/UEDPIE_0_RedmillsVillage.RedmillsVillage:PersistentLevel.ALS_AnimMan_CharacterBP_C_0.CharacterMesh0.ALS_AnimBP_C_0'
+[2022.02.21-05.25.10:627][ 34]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.21-05.25.10:627][ 34]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_RedmillsVillage
+[2022.02.21-05.25.10:627][ 34]LogSlate: Window 'AdvancedLocomotionV4 Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.02.21-05.25.10:631][ 34]LogWorld: UWorld::CleanupWorld for RedmillsVillage, bSessionEnded=true, bCleanupResources=true
+[2022.02.21-05.25.10:631][ 34]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.21-05.25.10:642][ 34]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.21-05.25.10:658][ 34]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.21-05.25.10:683][ 34]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.21-05.25.10:683][ 34]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.21-05.25.10:684][ 34]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.21-05.25.10:690][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2022.02.21-05.25.10:717][ 35]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2022.02.21-05.25.13:944][417]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2022.02.21-05.30.33:078][977]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2022.02.21-05.30.35:125][218]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2022.02.21-05.30.35:136][218]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2022.02.21-05.30.35:136][218]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.21-05.30.35:189][218]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2022.02.21-05.30.35:189][218]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.21-05.30.35:233][218]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2022.02.21-05.30.35:233][218]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.21-05.30.35:296][218]LogSlate: Window 'RedmillsVillage - Unreal Editor' being destroyed
+[2022.02.21-05.30.35:423][219]Cmd: QUIT_EDITOR
+[2022.02.21-05.30.35:423][219]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.02.21-05.30.35:425][219]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.02.21-05.30.36:114][219]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2022.02.21-05.30.36:114][219]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2022.02.21-05.30.36:114][219]LogAudio: Display: Audio Device unregistered from world 'RedmillsVillage'.
+[2022.02.21-05.30.36:114][219]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.21-05.30.36:115][219]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.21-05.30.36:122][219]LogAudio: Display: Audio Device Manager Shutdown
+[2022.02.21-05.30.36:123][219]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.02.21-05.30.36:127][219]LogExit: Preparing to exit.
+[2022.02.21-05.30.36:398][219]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2022.02.21-05.30.36:590][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:590][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:590][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:590][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:590][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:590][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:590][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:590][219]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.02.21-05.30.36:592][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:592][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:592][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:592][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:592][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:592][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:592][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:592][219]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.02.21-05.30.36:595][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:595][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:595][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:595][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:595][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:595][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:595][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:595][219]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.02.21-05.30.36:597][219]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2022.02.21-05.30.36:599][219]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2022.02.21-05.30.36:601][219]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2022.02.21-05.30.36:604][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:604][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:604][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:604][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:604][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:604][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:604][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:604][219]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.02.21-05.30.36:605][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:605][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:605][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:605][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:605][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:605][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:605][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:605][219]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.02.21-05.30.36:606][219]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.21-05.30.36:606][219]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.02.21-05.30.36:608][219]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2022.02.21-05.30.36:662][219]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.02.21-05.30.36:679][219]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.02.21-05.30.36:679][219]LogExit: Editor shut down
+[2022.02.21-05.30.36:680][219]LogExit: Transaction tracking system shut down
+[2022.02.21-05.30.36:956][219]LogExit: Object subsystem successfully closed.
+[2022.02.21-05.30.36:973][219]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.02.21-05.30.36:973][219]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2022.02.21-05.30.36:973][219]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2022.02.21-05.30.36:973][219]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.02.21-05.30.36:973][219]LogShaderCompilers: Display: ================================================
+[2022.02.21-05.30.36:982][219]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.02.21-05.30.37:002][219]LogModuleManager: Shutting down and abandoning module PinnedCommandList (884)
+[2022.02.21-05.30.37:002][219]LogModuleManager: Shutting down and abandoning module SkeletonEditor (882)
+[2022.02.21-05.30.37:002][219]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (880)
+[2022.02.21-05.30.37:002][219]LogModuleManager: Shutting down and abandoning module SequencerWidgets (878)
+[2022.02.21-05.30.37:002][219]LogModuleManager: Shutting down and abandoning module BlueprintGraph (876)
+[2022.02.21-05.30.37:002][219]LogModuleManager: Shutting down and abandoning module StatsViewer (874)
+[2022.02.21-05.30.37:002][219]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (872)
+[2022.02.21-05.30.37:002][219]LogModuleManager: Shutting down and abandoning module Voice (870)
+[2022.02.21-05.30.37:002][219]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (868)
+[2022.02.21-05.30.37:002][219]LogModuleManager: Shutting down and abandoning module AddContentDialog (866)
+[2022.02.21-05.30.37:003][219]LogModuleManager: Shutting down and abandoning module WidgetCarousel (865)
+[2022.02.21-05.30.37:003][219]LogModuleManager: Shutting down and abandoning module EditorWidgets (862)
+[2022.02.21-05.30.37:003][219]LogModuleManager: Shutting down and abandoning module SceneOutliner (860)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (858)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (856)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module AutomationWorker (854)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module SteamVREditor (852)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module OculusMR (850)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module TakeRecorderSources (848)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module TakeRecorder (847)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module TakeTrackRecorders (844)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module TakesCore (842)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module OpenXRInput (840)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module GooglePADEditor (838)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (836)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (834)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (832)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (830)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (828)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (826)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (824)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (822)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (820)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module WebMMedia (818)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (816)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (814)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module SequenceRecorder (813)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (810)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (808)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (806)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (804)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (802)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (800)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (798)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module PlanarCut (796)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (794)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (792)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (790)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module CharacterAI (788)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module TextureAlignMode (786)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module BspMode (784)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module GeometryMode (782)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (780)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module SmartSnapping (778)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module SessionServices (776)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module MeshPaint (774)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (772)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module FoliageEdit (770)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module LandscapeEditor (768)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module MeshPaintMode (766)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (764)
+[2022.02.21-05.30.37:004][219]LogModuleManager: Shutting down and abandoning module ActorPickerMode (762)
+[2022.02.21-05.30.37:005][219]LogModuleManager: Shutting down and abandoning module PlacementMode (760)
+[2022.02.21-05.30.37:005][219]LogModuleManager: Shutting down and abandoning module ViewportSnapping (758)
+[2022.02.21-05.30.37:005][219]LogModuleManager: Shutting down and abandoning module ViewportInteraction (756)
+[2022.02.21-05.30.37:005][219]LogModuleManager: Shutting down and abandoning module ClothPainter (754)
+[2022.02.21-05.30.37:005][219]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (753)
+[2022.02.21-05.30.37:005][219]LogModuleManager: Shutting down and abandoning module LogVisualizer (750)
+[2022.02.21-05.30.37:005][219]LogModuleManager: Shutting down and abandoning module IntroTutorials (748)
+[2022.02.21-05.30.37:005][219]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (747)
+[2022.02.21-05.30.37:005][219]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (744)
+[2022.02.21-05.30.37:005][219]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (742)
+[2022.02.21-05.30.37:005][219]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (740)
+[2022.02.21-05.30.37:005][219]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (739)
+[2022.02.21-05.30.38:191][219]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (736)
+[2022.02.21-05.30.38:191][219]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (734)
+[2022.02.21-05.30.38:191][219]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (732)
+[2022.02.21-05.30.38:191][219]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (730)
+[2022.02.21-05.30.38:191][219]LogModuleManager: Shutting down and abandoning module TraceInsights (728)
+[2022.02.21-05.30.38:191][219]MemoryProfiler: Shutdown
+[2022.02.21-05.30.38:191][219]NetworkingProfiler: Shutdown
+[2022.02.21-05.30.38:191][219]LoadingProfiler: Shutdown
+[2022.02.21-05.30.38:191][219]TimingProfiler: Shutdown
+[2022.02.21-05.30.38:191][219]LogModuleManager: Shutting down and abandoning module TraceServices (727)
+[2022.02.21-05.30.38:191][219]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (724)
+[2022.02.21-05.30.38:191][219]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (722)
+[2022.02.21-05.30.38:191][219]LogModuleManager: Shutting down and abandoning module InputBindingEditor (720)
+[2022.02.21-05.30.38:191][219]LogModuleManager: Shutting down and abandoning module MergeActors (718)
+[2022.02.21-05.30.38:191][219]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (716)
+[2022.02.21-05.30.38:191][219]LogModuleManager: Shutting down and abandoning module LocalizationService (715)
+[2022.02.21-05.30.38:191][219]LogModuleManager: Shutting down and abandoning module HardwareTargeting (712)
+[2022.02.21-05.30.38:191][219]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (710)
+[2022.02.21-05.30.38:191][219]LogModuleManager: Shutting down and abandoning module UndoHistory (708)
+[2022.02.21-05.30.38:191][219]LogModuleManager: Shutting down and abandoning module XmlParser (706)
+[2022.02.21-05.30.38:191][219]LogModuleManager: Shutting down and abandoning module Blutility (704)
+[2022.02.21-05.30.38:191][219]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (702)
+[2022.02.21-05.30.38:191][219]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (701)
+[2022.02.21-05.30.38:192][219]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (698)
+[2022.02.21-05.30.38:192][219]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (697)
+[2022.02.21-05.30.38:192][219]LogModuleManager: Shutting down and abandoning module SettingsEditor (694)
+[2022.02.21-05.30.38:192][219]LogModuleManager: Shutting down and abandoning module ProjectLauncher (692)
+[2022.02.21-05.30.38:192][219]LogModuleManager: Shutting down and abandoning module SessionFrontend (690)
+[2022.02.21-05.30.38:192][219]LogModuleManager: Shutting down and abandoning module ProfilerClient (688)
+[2022.02.21-05.30.38:192][219]LogModuleManager: Shutting down and abandoning module DeviceManager (686)
+[2022.02.21-05.30.38:192][219]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (685)
+[2022.02.21-05.30.38:224][219]LogModuleManager: Shutting down and abandoning module AutomationController (682)
+[2022.02.21-05.30.38:224][219]LogModuleManager: Shutting down and abandoning module AutomationWindow (680)
+[2022.02.21-05.30.38:224][219]LogModuleManager: Shutting down and abandoning module Layers (678)
+[2022.02.21-05.30.38:224][219]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (676)
+[2022.02.21-05.30.38:224][219]LogModuleManager: Shutting down and abandoning module DetailCustomizations (674)
+[2022.02.21-05.30.38:224][219]LogModuleManager: Shutting down and abandoning module PackagesDialog (672)
+[2022.02.21-05.30.38:224][219]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (670)
+[2022.02.21-05.30.38:224][219]LogModuleManager: Shutting down and abandoning module Persona (668)
+[2022.02.21-05.30.38:224][219]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (667)
+[2022.02.21-05.30.38:224][219]LogModuleManager: Shutting down and abandoning module AnimGraph (665)
+[2022.02.21-05.30.38:224][219]LogModuleManager: Shutting down and abandoning module Kismet (662)
+[2022.02.21-05.30.38:246][219]LogModuleManager: Shutting down and abandoning module KismetWidgets (661)
+[2022.02.21-05.30.38:246][219]LogModuleManager: Shutting down and abandoning module GraphEditor (658)
+[2022.02.21-05.30.38:247][219]LogModuleManager: Shutting down and abandoning module StructViewer (656)
+[2022.02.21-05.30.38:247][219]LogModuleManager: Shutting down and abandoning module ClassViewer (654)
+[2022.02.21-05.30.38:249][219]LogModuleManager: Shutting down and abandoning module Toolbox (652)
+[2022.02.21-05.30.38:249][219]LogModuleManager: Shutting down and abandoning module ModuleUI (650)
+[2022.02.21-05.30.38:249][219]LogModuleManager: Shutting down and abandoning module OutputLog (648)
+[2022.02.21-05.30.38:250][219]LogModuleManager: Shutting down and abandoning module GammaUI (646)
+[2022.02.21-05.30.38:250][219]LogModuleManager: Shutting down and abandoning module Documentation (644)
+[2022.02.21-05.30.38:253][219]LogModuleManager: Shutting down and abandoning module LiveCoding (642)
+[2022.02.21-05.30.38:253][219]LogModuleManager: Shutting down and abandoning module LevelSequence (640)
+[2022.02.21-05.30.38:253][219]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (638)
+[2022.02.21-05.30.38:253][219]LogModuleManager: Shutting down and abandoning module MovieScene (636)
+[2022.02.21-05.30.38:253][219]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (634)
+[2022.02.21-05.30.38:253][219]LogModuleManager: Shutting down and abandoning module LauncherPlatform (632)
+[2022.02.21-05.30.38:253][219]LogModuleManager: Shutting down and abandoning module AnalyticsET (630)
+[2022.02.21-05.30.38:253][219]LogModuleManager: Shutting down and abandoning module PortalServices (628)
+[2022.02.21-05.30.38:253][219]LogModuleManager: Shutting down and abandoning module PortalRpc (626)
+[2022.02.21-05.30.38:253][219]LogModuleManager: Shutting down and abandoning module MessagingRpc (624)
+[2022.02.21-05.30.38:253][219]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (622)
+[2022.02.21-05.30.38:253][219]LogModuleManager: Shutting down and abandoning module AudioMixerCore (621)
+[2022.02.21-05.30.38:253][219]LogModuleManager: Shutting down and abandoning module AIModule (618)
+[2022.02.21-05.30.38:253][219]LogModuleManager: Shutting down and abandoning module GameplayDebugger (617)
+[2022.02.21-05.30.38:253][219]LogModuleManager: Shutting down and abandoning module AITestSuite (615)
+[2022.02.21-05.30.38:253][219]LogModuleManager: Shutting down and abandoning module NavigationSystem (613)
+[2022.02.21-05.30.38:253][219]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (610)
+[2022.02.21-05.30.38:257][219]LogModuleManager: Shutting down and abandoning module ProfilerService (608)
+[2022.02.21-05.30.38:505][219]LogModuleManager: Shutting down and abandoning module TaskGraph (606)
+[2022.02.21-05.30.38:505][219]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (604)
+[2022.02.21-05.30.38:505][219]LogModuleManager: Shutting down and abandoning module OculusEditor (602)
+[2022.02.21-05.30.38:505][219]LogModuleManager: Shutting down and abandoning module OculusInput (600)
+[2022.02.21-05.30.38:505][219]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (598)
+[2022.02.21-05.30.38:505][219]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (596)
+[2022.02.21-05.30.38:505][219]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (594)
+[2022.02.21-05.30.38:505][219]LogModuleManager: Shutting down and abandoning module CollectionManager (593)
+[2022.02.21-05.30.38:505][219]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (590)
+[2022.02.21-05.30.38:505][219]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (588)
+[2022.02.21-05.30.38:505][219]LogModuleManager: Shutting down and abandoning module UObjectPlugin (586)
+[2022.02.21-05.30.38:505][219]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (584)
+[2022.02.21-05.30.38:505][219]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (582)
+[2022.02.21-05.30.38:505][219]LogModuleManager: Shutting down and abandoning module PluginUtils (580)
+[2022.02.21-05.30.38:505][219]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (578)
+[2022.02.21-05.30.38:505][219]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (576)
+[2022.02.21-05.30.38:505][219]LogModuleManager: Shutting down and abandoning module GitSourceControl (574)
+[2022.02.21-05.30.38:505][219]LogModuleManager: Shutting down and abandoning module SourceControl (573)
+[2022.02.21-05.30.38:505][219]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (570)
+[2022.02.21-05.30.38:505][219]LogModuleManager: Shutting down and abandoning module TakeSequencer (568)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module TakeMovieScene (566)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module SynthesisEditor (564)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module Synthesis (562)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (560)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (558)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module ScreenshotTools (556)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module OpenXREditor (554)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (552)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module GooglePAD (550)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module EditableMesh (548)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module CableComponent (546)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (544)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module AudioCapture (542)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (541)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module AssetTags (538)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (536)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (534)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module AppleImageUtils (532)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module AndroidPermission (530)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (528)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (526)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module TemplateSequence (524)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module MediaCompositing (522)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module ImgMedia (520)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module MotoSynthEditor (518)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module MotoSynth (516)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (514)
+[2022.02.21-05.30.38:506][219]LogOpenImageDenoise: OIDN shutting down
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module MeshConversion (512)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module DynamicMesh (510)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (508)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module GeometricObjects (506)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (504)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (503)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (500)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (498)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (496)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (494)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (492)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (490)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (488)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (486)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (484)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (482)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module FractureEditor (480)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module ChaosNiagara (478)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (477)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (474)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (472)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (470)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module AutomationUtils (468)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module BackChannel (466)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module AlembicImporter (464)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module AlembicLibrary (463)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module GeometryCache (462)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (461)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (456)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (454)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (452)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (450)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module CryptoKeys (448)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (446)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (444)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (442)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module PluginBrowser (440)
+[2022.02.21-05.30.38:506][219]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (438)
+[2022.02.21-05.30.38:507][219]LogModuleManager: Shutting down and abandoning module CurveEditorTools (436)
+[2022.02.21-05.30.38:507][219]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (434)
+[2022.02.21-05.30.38:507][219]LogModuleManager: Shutting down and abandoning module LiveLinkSequencer (432)
+[2022.02.21-05.30.38:507][219]LogModuleManager: Shutting down and abandoning module LiveLinkMovieScene (430)
+[2022.02.21-05.30.38:507][219]LogModuleManager: Shutting down and abandoning module LiveLinkGraphNode (428)
+[2022.02.21-05.30.38:507][219]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (426)
+[2022.02.21-05.30.38:507][219]LogModuleManager: Shutting down and abandoning module LiveLinkComponents (424)
+[2022.02.21-05.30.38:507][219]LogModuleManager: Shutting down and abandoning module LiveLink (422)
+[2022.02.21-05.30.39:350][219]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (420)
+[2022.02.21-05.30.39:350][219]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (418)
+[2022.02.21-05.30.39:350][219]LogModuleManager: Shutting down and abandoning module Paper2DEditor (416)
+[2022.02.21-05.30.39:350][219]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (414)
+[2022.02.21-05.30.39:350][219]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (412)
+[2022.02.21-05.30.39:350][219]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (410)
+[2022.02.21-05.30.39:350][219]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (408)
+[2022.02.21-05.30.39:350][219]LogModuleManager: Shutting down and abandoning module SoundFields (406)
+[2022.02.21-05.30.39:350][219]LogModuleManager: Shutting down and abandoning module SignificanceManager (404)
+[2022.02.21-05.30.39:350][219]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (402)
+[2022.02.21-05.30.39:350][219]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (400)
+[2022.02.21-05.30.39:350][219]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (396)
+[2022.02.21-05.30.39:350][219]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (394)
+[2022.02.21-05.30.39:350][219]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (392)
+[2022.02.21-05.30.39:350][219]LogModuleManager: Shutting down and abandoning module ActorSequence (390)
+[2022.02.21-05.30.39:350][219]LogModuleManager: Shutting down and abandoning module UdpMessaging (388)
+[2022.02.21-05.30.39:451][219]LogModuleManager: Shutting down and abandoning module TcpMessaging (386)
+[2022.02.21-05.30.39:552][219]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (384)
+[2022.02.21-05.30.39:552][219]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (382)
+[2022.02.21-05.30.39:553][219]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (380)
+[2022.02.21-05.30.39:553][219]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (378)
+[2022.02.21-05.30.39:553][219]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (376)
+[2022.02.21-05.30.39:553][219]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (374)
+[2022.02.21-05.30.39:553][219]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (372)
+[2022.02.21-05.30.39:553][219]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2022.02.21-05.30.39:553][219]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (370)
+[2022.02.21-05.30.39:553][219]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (368)
+[2022.02.21-05.30.39:553][219]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (366)
+[2022.02.21-05.30.39:553][219]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (364)
+[2022.02.21-05.30.39:553][219]LogModuleManager: Shutting down and abandoning module MagicLeapController (362)
+[2022.02.21-05.30.39:553][219]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (360)
+[2022.02.21-05.30.39:553][219]LogModuleManager: Shutting down and abandoning module MagicLeapAR (358)
+[2022.02.21-05.30.39:553][219]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (356)
+[2022.02.21-05.30.39:553][219]LogModuleManager: Shutting down and abandoning module Niagara (354)
+[2022.02.21-05.30.39:553][219]LogModuleManager: Shutting down and abandoning module SignalProcessing (353)
+[2022.02.21-05.30.39:553][219]LogModuleManager: Shutting down and abandoning module NiagaraEditor (351)
+[2022.02.21-05.30.39:553][219]LogModuleManager: Shutting down and abandoning module NiagaraCore (348)
+[2022.02.21-05.30.39:553][219]LogModuleManager: Shutting down and abandoning module AnimationSharing (346)
+[2022.02.21-05.30.39:553][219]LogModuleManager: Shutting down and abandoning module GameplayCameras (344)
+[2022.02.21-05.30.39:553][219]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (342)
+[2022.02.21-05.30.39:553][219]LogModuleManager: Shutting down and abandoning module FacialAnimation (340)
+[2022.02.21-05.30.39:553][219]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (338)
+[2022.02.21-05.30.39:553][219]LogModuleManager: Shutting down and abandoning module DataValidation (336)
+[2022.02.21-05.30.39:553][219]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (334)
+[2022.02.21-05.30.39:553][219]LogModuleManager: Shutting down and abandoning module LevelEditor (333)
+[2022.02.21-05.30.39:555][219]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (332)
+[2022.02.21-05.30.39:555][219]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (330)
+[2022.02.21-05.30.39:555][219]LogModuleManager: Shutting down and abandoning module MainFrame (328)
+[2022.02.21-05.30.39:555][219]LogModuleManager: Shutting down and abandoning module HotReload (327)
+[2022.02.21-05.30.39:556][219]LogModuleManager: Shutting down and abandoning module ToolMenus (323)
+[2022.02.21-05.30.39:556][219]LogModuleManager: Shutting down and abandoning module ContentBrowser (321)
+[2022.02.21-05.30.39:556][219]LogModuleManager: Shutting down and abandoning module ContentBrowserData (320)
+[2022.02.21-05.30.39:556][219]LogModuleManager: Shutting down and abandoning module TreeMap (317)
+[2022.02.21-05.30.39:556][219]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (314)
+[2022.02.21-05.30.39:556][219]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (312)
+[2022.02.21-05.30.39:556][219]LogModuleManager: Shutting down and abandoning module Paper2D (310)
+[2022.02.21-05.30.39:556][219]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (308)
+[2022.02.21-05.30.39:561][219]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (306)
+[2022.02.21-05.30.39:561][219]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (304)
+[2022.02.21-05.30.39:561][219]LogModuleManager: Shutting down and abandoning module PacketHandler (302)
+[2022.02.21-05.30.39:561][219]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (300)
+[2022.02.21-05.30.39:561][219]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (298)
+[2022.02.21-05.30.39:561][219]LogModuleManager: Shutting down and abandoning module MediaAssets (296)
+[2022.02.21-05.30.39:561][219]LogModuleManager: Shutting down and abandoning module Overlay (294)
+[2022.02.21-05.30.39:561][219]LogModuleManager: Shutting down and abandoning module OverlayEditor (293)
+[2022.02.21-05.30.39:561][219]LogModuleManager: Shutting down and abandoning module VREditor (290)
+[2022.02.21-05.30.39:561][219]LogModuleManager: Shutting down and abandoning module StringTableEditor (288)
+[2022.02.21-05.30.39:561][219]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (286)
+[2022.02.21-05.30.39:561][219]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (284)
+[2022.02.21-05.30.39:561][219]LogModuleManager: Shutting down and abandoning module FunctionalTesting (282)
+[2022.02.21-05.30.39:561][219]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (280)
+[2022.02.21-05.30.39:561][219]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (279)
+[2022.02.21-05.30.39:561][219]LogModuleManager: Shutting down and abandoning module UMG (276)
+[2022.02.21-05.30.39:561][219]LogModuleManager: Shutting down and abandoning module UMGEditor (275)
+[2022.02.21-05.30.39:561][219]LogModuleManager: Shutting down and abandoning module MessageLog (273)
+[2022.02.21-05.30.39:561][219]LogModuleManager: Shutting down and abandoning module SlateReflector (268)
+[2022.02.21-05.30.39:561][219]LogModuleManager: Shutting down and abandoning module Slate (266)
+[2022.02.21-05.30.39:561][219]LogModuleManager: Shutting down and abandoning module SlateCore (264)
+[2022.02.21-05.30.39:562][219]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (262)
+[2022.02.21-05.30.39:562][219]LogModuleManager: Shutting down and abandoning module UnrealEd (260)
+[2022.02.21-05.30.39:562][219]LogModuleManager: Shutting down and abandoning module MRMesh (258)
+[2022.02.21-05.30.39:562][219]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (256)
+[2022.02.21-05.30.39:562][219]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (254)
+[2022.02.21-05.30.39:562][219]LogModuleManager: Shutting down and abandoning module XAudio2 (252)
+[2022.02.21-05.30.39:562][219]LogModuleManager: Shutting down and abandoning module Networking (250)
+[2022.02.21-05.30.39:562][219]LogModuleManager: Shutting down and abandoning module Core (248)
+[2022.02.21-05.30.39:562][219]LogModuleManager: Shutting down and abandoning module MaterialEditor (246)
+[2022.02.21-05.30.39:562][219]LogModuleManager: Shutting down and abandoning module MovieSceneTools (244)
+[2022.02.21-05.30.39:562][219]LogModuleManager: Shutting down and abandoning module CurveEditor (243)
+[2022.02.21-05.30.39:562][219]LogModuleManager: Shutting down and abandoning module Sequencer (241)
+[2022.02.21-05.30.39:562][219]LogModuleManager: Shutting down and abandoning module EditorStyle (240)
+[2022.02.21-05.30.39:564][219]LogModuleManager: Shutting down and abandoning module KismetCompiler (236)
+[2022.02.21-05.30.39:564][219]LogModuleManager: Shutting down and abandoning module MeshBuilder (234)
+[2022.02.21-05.30.39:564][219]LogModuleManager: Shutting down and abandoning module MeshUtilities (232)
+[2022.02.21-05.30.39:564][219]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (231)
+[2022.02.21-05.30.39:564][219]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (230)
+[2022.02.21-05.30.39:564][219]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (229)
+[2022.02.21-05.30.39:564][219]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (227)
+[2022.02.21-05.30.39:564][219]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (225)
+[2022.02.21-05.30.39:564][219]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (223)
+[2022.02.21-05.30.39:564][219]LogModuleManager: Shutting down and abandoning module MaterialBaking (219)
+[2022.02.21-05.30.39:564][219]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (214)
+[2022.02.21-05.30.39:564][219]LogModuleManager: Shutting down and abandoning module DerivedDataCache (212)
+[2022.02.21-05.30.39:564][219]LogModuleManager: Shutting down and abandoning module TargetPlatform (210)
+[2022.02.21-05.30.39:564][219]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (209)
+[2022.02.21-05.30.39:564][219]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (207)
+[2022.02.21-05.30.39:564][219]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (205)
+[2022.02.21-05.30.39:564][219]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (203)
+[2022.02.21-05.30.39:564][219]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (201)
+[2022.02.21-05.30.39:564][219]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (199)
+[2022.02.21-05.30.39:564][219]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (197)
+[2022.02.21-05.30.39:564][219]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (195)
+[2022.02.21-05.30.39:564][219]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (193)
+[2022.02.21-05.30.39:564][219]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (191)
+[2022.02.21-05.30.39:564][219]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (189)
+[2022.02.21-05.30.39:565][219]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (187)
+[2022.02.21-05.30.39:565][219]LogModuleManager: Shutting down and abandoning module ImageWrapper (186)
+[2022.02.21-05.30.39:565][219]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (183)
+[2022.02.21-05.30.39:565][219]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (181)
+[2022.02.21-05.30.39:565][219]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (179)
+[2022.02.21-05.30.39:565][219]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (177)
+[2022.02.21-05.30.39:565][219]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (175)
+[2022.02.21-05.30.39:565][219]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (173)
+[2022.02.21-05.30.39:565][219]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (171)
+[2022.02.21-05.30.39:565][219]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (169)
+[2022.02.21-05.30.39:568][219]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (167)
+[2022.02.21-05.30.39:568][219]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (165)
+[2022.02.21-05.30.39:568][219]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (163)
+[2022.02.21-05.30.39:568][219]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (161)
+[2022.02.21-05.30.39:568][219]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (159)
+[2022.02.21-05.30.39:572][219]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (157)
+[2022.02.21-05.30.39:572][219]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (155)
+[2022.02.21-05.30.39:572][219]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (153)
+[2022.02.21-05.30.39:572][219]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (151)
+[2022.02.21-05.30.39:573][219]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (149)
+[2022.02.21-05.30.39:573][219]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (147)
+[2022.02.21-05.30.39:573][219]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (145)
+[2022.02.21-05.30.39:573][219]LogModuleManager: Shutting down and abandoning module Messaging (143)
+[2022.02.21-05.30.39:573][219]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (141)
+[2022.02.21-05.30.39:576][219]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (139)
+[2022.02.21-05.30.39:588][219]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (137)
+[2022.02.21-05.30.39:588][219]LogModuleManager: Shutting down and abandoning module D3D11RHI (134)
+[2022.02.21-05.30.39:588][219]LogModuleManager: Shutting down and abandoning module InputCore (132)
+[2022.02.21-05.30.39:588][219]LogModuleManager: Shutting down and abandoning module Settings (130)
+[2022.02.21-05.30.39:588][219]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (128)
+[2022.02.21-05.30.39:588][219]LogModuleManager: Shutting down and abandoning module PhysXCooking (126)
+[2022.02.21-05.30.39:588][219]LogModuleManager: Shutting down and abandoning module Chaos (124)
+[2022.02.21-05.30.39:588][219]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (122)
+[2022.02.21-05.30.39:588][219]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (121)
+[2022.02.21-05.30.39:589][219]LogModuleManager: Shutting down and abandoning module AVEncoder (120)
+[2022.02.21-05.30.39:589][219]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (116)
+[2022.02.21-05.30.39:589][219]LogModuleManager: Shutting down and abandoning module SteamVRInput (114)
+[2022.02.21-05.30.39:589][219]LogModuleManager: Shutting down and abandoning module SteamVR (112)
+[2022.02.21-05.30.39:589][219]LogHMD: Freeing OpenVRDLLHandle.
+[2022.02.21-05.30.39:589][219]LogModuleManager: Shutting down and abandoning module OculusHMD (110)
+[2022.02.21-05.30.39:589][219]LogModuleManager: Shutting down and abandoning module PixWinPlugin (108)
+[2022.02.21-05.30.39:589][219]LogModuleManager: Shutting down and abandoning module OpenXRAR (106)
+[2022.02.21-05.30.39:589][219]LogModuleManager: Shutting down and abandoning module AugmentedReality (105)
+[2022.02.21-05.30.39:589][219]LogModuleManager: Shutting down and abandoning module OpenXRHandTracking (102)
+[2022.02.21-05.30.39:589][219]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.02.21-05.30.39:589][219]LogModuleManager: Shutting down and abandoning module OpenXRHMD (101)
+[2022.02.21-05.30.39:590][219]LogModuleManager: Shutting down and abandoning module OpenXREyeTracker (98)
+[2022.02.21-05.30.39:590][219]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (96)
+[2022.02.21-05.30.39:590][219]LogModuleManager: Shutting down and abandoning module ChunkDownloader (94)
+[2022.02.21-05.30.39:590][219]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
+[2022.02.21-05.30.39:590][219]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (88)
+[2022.02.21-05.30.39:590][219]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (86)
+[2022.02.21-05.30.39:591][219]LogModuleManager: Shutting down and abandoning module XMPP (81)
+[2022.02.21-05.30.39:591][219]LogModuleManager: Shutting down and abandoning module WebSockets (80)
+[2022.02.21-05.30.39:594][219]LogModuleManager: Shutting down and abandoning module HTTP (77)
+[2022.02.21-05.30.39:594][219]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2022.02.21-05.30.39:594][219]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0D6E545A-4D6D-4D85-D0AE-558E9E2D5BB7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=4d1de177492f8a2c845b4a9ff7118c24%7C44c300d102404eacad7d484d078d2c52%7Ccfad2b0b-462d-4bce-8d47-fa96e2052572&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2022.02.21-05.30.39:594][219]LogHttp: Display: cleaning up 1 outstanding Http requests.
+[2022.02.21-05.30.39:628][219]LogModuleManager: Shutting down and abandoning module SSL (76)
+[2022.02.21-05.30.39:629][219]LogModuleManager: Shutting down and abandoning module WmfMedia (72)
+[2022.02.21-05.30.39:630][219]LogModuleManager: Shutting down and abandoning module Media (71)
+[2022.02.21-05.30.39:631][219]LogModuleManager: Shutting down and abandoning module MediaInfo (70)
+[2022.02.21-05.30.39:631][219]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (66)
+[2022.02.21-05.30.39:631][219]LogModuleManager: Shutting down and abandoning module MLSDK (64)
+[2022.02.21-05.30.39:631][219]LogModuleManager: Shutting down and abandoning module MagicLeap (62)
+[2022.02.21-05.30.39:631][219]LogModuleManager: Shutting down and abandoning module ChaosCloth (60)
+[2022.02.21-05.30.39:631][219]LogModuleManager: Shutting down and abandoning module VariantManagerContent (58)
+[2022.02.21-05.30.39:631][219]LogModuleManager: Shutting down and abandoning module DatasmithContent (56)
+[2022.02.21-05.30.39:631][219]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (54)
+[2022.02.21-05.30.39:631][219]LogModuleManager: Shutting down and abandoning module NiagaraShader (52)
+[2022.02.21-05.30.39:631][219]LogModuleManager: Shutting down and abandoning module AISupportModule (50)
+[2022.02.21-05.30.39:631][219]LogModuleManager: Shutting down and abandoning module DesktopPlatform (48)
+[2022.02.21-05.30.39:631][219]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (46)
+[2022.02.21-05.30.39:631][219]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2022.02.21-05.30.39:631][219]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2022.02.21-05.30.39:631][219]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2022.02.21-05.30.39:631][219]LogModuleManager: Shutting down and abandoning module OodleDataCompressionFormat (38)
+[2022.02.21-05.30.39:632][219]LogModuleManager: Shutting down and abandoning module XGEController (36)
+[2022.02.21-05.30.39:632][219]LogXGEController: Cleaning working directory: C:/Users/Pc/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2022.02.21-05.30.39:632][219]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2022.02.21-05.30.39:632][219]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2022.02.21-05.30.39:632][219]LogModuleManager: Shutting down and abandoning module PropertyEditor (31)
+[2022.02.21-05.30.39:632][219]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2022.02.21-05.30.39:632][219]LogModuleManager: Shutting down and abandoning module RenderCore (26)
+[2022.02.21-05.30.39:632][219]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2022.02.21-05.30.39:632][219]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2022.02.21-05.30.39:636][219]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2022.02.21-05.30.39:636][219]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2022.02.21-05.30.39:636][219]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2022.02.21-05.30.39:636][219]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2022.02.21-05.30.39:636][219]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2022.02.21-05.30.39:636][219]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2022.02.21-05.30.39:636][219]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2022.02.21-05.30.39:637][219]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2022.02.21-05.30.39:637][219]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2022.02.21-05.30.39:637][219]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2022.02.21-05.30.39:637][219]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2022.02.21-05.30.39:656][219]LogD3D11RHI: Shutdown
+[2022.02.21-05.30.39:656][219]LogD3D11RHI: CleanupD3DDevice
+[2022.02.21-05.30.39:660][219]LogExit: Exiting.
+[2022.02.21-05.30.39:679][219]Log file closed, 02/21/22 02:30:39
